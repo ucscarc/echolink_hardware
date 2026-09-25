@@ -39,6 +39,13 @@ The `D` shortcuts are macros, not EchoLink node numbers. A macro will refuse
 to switch modules if a different module is already active. Send `#` to leave
 the active module first.
 
+For `*#`, the installed event script plays "online", spells `W6SLG-R`, gives
+the Pi's current time, announces the configured PL value of `136.5 Hz`, and
+offers `0` for help. If EchoLink is active, it also reports the number of
+connected stations. This is an announcement assembled from configuration and
+module state; it does not measure the repeater's RF output or verify the
+actual access tone. The `*#` announcement has not yet been tested over RF.
+
 ## While Help is active
 
 | Keys | Action |
